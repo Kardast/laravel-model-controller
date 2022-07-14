@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PageController@index')->name('home');
 
 Route::get('/duck', 'PageController@duck')->name('duck');
+
+Route::get('/list', 'PageController@list')->name('list');
