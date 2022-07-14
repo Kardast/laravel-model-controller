@@ -9,7 +9,7 @@
 
     <h2>
 
-        <a href="{{ route('list') }}">List Page</a>
+        <a href="{{ route('list') }}">Movies List Page</a>
     </h2>
 
 @endsection
